@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/preorder_style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="JS/fullclip.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <title>Pre Order - Rainbow Seven</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="ubipost-background">
+            <div class="ubipost-text" id="ubipost-id">
+                <h3>UBIPOST</h3>
+            </div>
+        </div>
+        <div class="navigation">
+            <nav>
+                <a href="index.html"><img id="logo" src="Image/logo2.jpg"></a>
+                <ul>
+                    <li><a href="index.html" class="home">Home</a></li>
+                    <li>
+                        <a>Operator</a>
+                        <ul>
+                            <li><a href="saviour.html">Saviour</a></li>
+                            <li><a href="protector.html">Protector</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="map.html">Maps</a></li>
+                    <li><a href="quarantine.html">Quarantine</a></li> 
+                    <li><a href="#" class="last">PREORDER</a></li>              
+                </ul> 
+            </nav>
+        </div>
+    </div>
+    <div class="information-page">
+        <br>
+        <div class="section-title">
+            <h3>Pre Order Now!</h3>
+            <h3>And Get Exclusive Content!</h3>
+        </div>
+        <div class="information">
+            <div>
+                <h2>FREE CHARACTERS</h2>
+                <img class="top picture" src="Image/sledge.jpg">
+                <img class="picture" src="Image/shield.jpg">
+                <br>
+                <br>
+            </div>
+            <div>
+                <h2>FREE DLC</h2>
+                <img class="top picture" src="Image/home_slide6.jpg">
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <form class="preorder-form">
+        <div name='input data' class="container-input-data">
+            <h1 class="text-h1">Pre-order</h1>
+            <h3>Username</h3>
+            <input id="inputName" type="text" placeholder="Enter your username(min. 3 characters)..." required>
+            <div id="usernameError" class="errorAlert">username should be more than 2 characters</div>
+            <h3>Email</h3>
+            <input id="inputEmail" type="text" placeholder="Enter your email(example@domain.com)..." required>
+            <div id="emailError" class="errorAlert">please enter your email correctly</div>
+            <h3>Set up Your Password</h3>
+            <input id="inputPassword" type="password" placeholder="Enter your password(min. 8 character)" required><br>
+            <div id="passwordError" class="errorAlert">password must be more than 7 characters</div>
+            <h3>Home Address</h3>
+            <input id="inputAddress" type="text" placeholder="Enter your address(cannot be empty)..." required><br>
+            <div id="addressError" class="errorAlert">please enter your address</div>
+            <h3>Number of Copies</h3>
+            <input id="inputCopies" type="text" placeholder="Enter number of copies(must be number only)..." required>
+            <div id="copiesError" class="errorAlert">please input atleast one copy of the game</div>
+            <br>
+            <br>
+        </div>
+        <div class="game-type">
+            <div class="game-type-text">
+                <h3>Choose Your Game Type</h3>
+            </div>
+            <div class="container-grid">
+                <form name="radioForm">
+                    <div class="game-type-selection">
+                        <div class="game-type-description">
+                            <h3>Standard</h3>
+                            <br>
+                            <p>• Free Characters</p>
+                            <p>• Free DLC</p>
+                        </div>
+                        <input id="type_standard" type="radio" name="gameType" value="Standard Edition">
+                    </div>
+                    <div class="game-type-selection">
+                        <div class="game-type-description">
+                            <h3>Deluxe</h3>
+                            <br>
+                            <p>• Free Characters</p>
+                            <p>• Free DLC</p>
+                            <p>• Season Pass</p>
+                            <p>• 500 R7 Token</p>
+                        </div>
+                        <input id="type_deluxe" type="radio" name="gameType" value="Deluxe Edition">
+                    </div>
+                </form>
+            </div>
+            <div id="gameTypeError" class="errorAlert">please choose game type</div>
+        </div>
+
+        <div class="container-input-data">
+            <br>
+            <div class="section-title">
+                <h3>Terms and Conditions</h3>
+            </div>
+            <div class="terms-and-service">
+                <div>
+                    <h3>Terms and Conditions</h3><br>
+                </div>
+                The terms and conditions (TOS) described below apply to all use of the Ubipost website and all
+                services available through the website. By using the Ubipost website and services, you agree to be
+                bound by these terms, so please read this Agreement carefully before using the Ubipost website and
+                services. <br><br>
+
+                Ubipost has the sole discretion to change or replace any part of this agreement You are responsible
+                for periodically checking this agreement for any changes. Any new Service additions or enhancements are
+                subject to these Terms of Service. You consent to any such changes by continuing to use the Ubipost
+                service. <br><br>
+
+                We reserve the right to terminate your account if you violate any of the terms described below.
+                Account Terms <br><br>
+
+                You are required to sign in to your Ubipost account in order to use Ubipost. You are solely responsible
+                for maintaining the security of your account and password. You must notify us of any security breach as
+                soon as possible. Ubipost will not be liable for any loss or damage if you fail to comply with this
+                security obligation. <br><br>
+
+                Accounts registered by automated methods are not allowed. You must be a real person to use this service. <br><br>
+
+                You are responsible for all activity that happens under your account. <br><br>
+
+                One person or legal entity may not sign up for more than one free trial account. <br><br>
+
+                You may not use the Ubipost for any illegal or unauthorized purpose. You must not violate any laws in
+                your jurisdiction in your usage of the Ubipost service.
+                Account Payment<br><br>
+
+                You are billed at the start of each billing cycle and the credit card we have on record for you is
+                charged automatically. Payments are non-refundable, so there will be no refunds for any reason, such as
+                canceling your account or downgrading your plan. Any such changes to your account will be effective on
+                your next billing cycle.<br><br>
+
+                One person or legal entity may not sign up for more than one free trial account.If you upgrade from the
+                free trial to a paid plan, you will be billed immediately since your monthly subscription cycle begins
+                immediately after you upgrade.<br><br>
+
+                For any upgrade or downgrade in plan level, your credit card will be automatically charged the new rate
+                on your next billing cycle.<br><br>
+
+                You may lose content or features if you downgrade your service. Ubipost does not accept any liability
+                for such loss.<br><br>
+                Account Termination or Cancellation or Termination<br><br>
+
+                You can cancel your account at any time. All your content and profile information will be deleted from
+                the Ubipost Service immediately upon cancellation and cannot be recovered once it is deleted.<br><br>
+
+                Ubipost has the right to suspend or terminate your account with or without cause and with or without
+                notice at any time If your account is terminated, all content and profile information will be
+                immediately deleted and you will no longer have access to your account. Ubipost reserves the right to
+                refuse service to anyone for any reason.
+                Changes to the Ubipost Service and Plan Prices<br><br>
+
+                Ubipost reserves the right to modify or discontinue, temporarily or permanently, the Ubipost Service
+                with or without notice.<br><br>
+
+                Prices and features of all plans are subject to change with 30 days notice from us. We can provide such
+                a notice by posting changes to the Ubipost Site or the Ubipost Service.<br><br>
+
+                Ubipost will not be liable to you or anyone for any modification, price change, suspension or
+                discontinuance of the Ubipost Service.<br><br>
+                Copyright and Content Ownership<br><br>
+
+                You retain all intellectual property rights over all content in your account. Your profile and any
+                material materials uploaded also remains yours.<br><br>
+
+                Ubipost has the right in its sole discretion to refuse or remove any content that is available through
+                the Ubipost Service.<br><br>
+                General Conditions<br><br>
+
+                The Ubipost service is provided on an "as is" and "as available" basis.<br><br>
+
+                Ubipost uses third party vendors and hosting partners to provide the hardware, software, networking,
+                storage, and related technology required to run the Ubipost Service.<br><br>
+
+                If you choose to use the Ubipost website and service, you consent to the transfer and storage of any
+                content and other profile information on servers located in the United States.<br><br>
+
+                We may remove content and accounts containing content that we determine in our sole discretion to be
+                unlawful, offensive, threatening, libelous, defamatory, pornographic, obscene or otherwise objectionable
+                or violates any party's intellectual property or these Terms of Service.<br><br>
+
+                You must not transmit any worms or viruses or any content of a destructive nature.<br><br>
+
+                Ubipost does not promise that the service will be uninterrupted, timely, secure, or error-free. We
+                make every effort to ensure that it will satisfy your requirements and expectations, but make no
+                promises in this regard.<br><br>
+
+                Ubipost cannot be held liable for system down time, crashes or data loss. We cannot be held liable for
+                any predicated estimate of profits which a client would have gained if the Ubipost service was
+                functioning.<br><br>
+
+                The failure of Ubipost to exercise or enforce any right or provision of the Terms of Service shall not
+                constitute a waiver of such right or provision. This Terms of Service supersedes any prior agreements or
+                prior versions of Terms of Service between you and Ubipost. You agree that these Terms of Service and
+                your use of the Ubipost Service are governed under California law.<br><br>
+
+                If you choose to provide Ubipost with your information, you consent to the transfer and storage of
+                that information on our servers located in the United States.<br><br>
+            </div>
+            <div class="agreement">
+                <form name="agreementForm">
+                    <input type="checkbox" id="inputAgreement" value="I agree to the terms and services"> I agree to the
+                    <a href="#">terms and conditions</a>
+                </form>
+                <div id="agreementError" class="errorAlert">you must agree to the terms of services before you can pre
+                    order this game</div>
+            </div>
+            <br>
+            <br>
+            <button type="button" onclick="validate()" class="submitBtn">submit</button>
+        </div>
+    </form>
+    <div class="footer">
+        <h2>FIND US ON :</h2>
+        <div class="sosmed">
+            <a href="https://www.youtube.com/?hl=id&gl=ID" target="_blank"><img src="Image/youtube.png"></a>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="Image/facebook.png"></a>
+        </div>
+        <h3><a href="#">Legal Information</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></h3>
+        <img id="logor7" src="Image/logo.png">
+    </div>
+    <script src="js/preorder.js"></script>
+</body>
+
+</html>

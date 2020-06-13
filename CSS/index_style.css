@@ -1,0 +1,530 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: black;
+}
+
+.header{
+    width: 100%;
+    height: 25vh;
+    background: black;
+}
+
+.ubipost-background{
+    width: 100%;
+    height: 7vh;
+    background: #575556;
+}
+
+.ubipost-text{
+    font-size: 2rem;
+    float: left;
+    margin-left: 6rem;
+    color: #ffffff;
+}
+
+.ubipost-text h3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul{
+    background: black;
+    margin-top: 2rem;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.last{
+    margin-right: 1rem;
+}
+
+nav ul li{
+    margin-top: 2rem;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    background: black;
+}
+
+nav ul li a{
+    display: block;
+    margin-right: 3rem;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a{
+    cursor: pointer;
+}
+
+nav ul ul{
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+nav ul li:hover > ul{
+    z-index: 1;
+    display: block;
+}
+
+nav ul ul li{
+    z-index: 1;
+    padding-left: 1rem;
+    padding-bottom: 15px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+#logo{
+    width: 13rem;
+    margin-left: 1rem;
+    float: left;
+}
+
+.fullBackground {
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    height: 100vh;
+}
+
+.cover{
+    width: 100%;
+    height: 100vh;
+}
+
+.update{
+    width: 100%;
+    background: black;
+}
+
+.update .update-text h2{
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.container-grid{
+    margin-left: 10%;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+    grid-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.container-grid div h2{
+    font-size: 2rem;
+}
+
+.update2{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.check{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.check a{
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+    font-weight: bold;
+}
+
+.check a:hover{
+   background: white;
+   color: black;
+   transition: 0.5s ease;
+}
+
+.information-page{
+    width: 100%;
+    height: 100vh;
+    margin-top: 5rem;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1.1)), url(../Image/home_slide1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.top{
+    margin-top: 1rem;
+}
+
+.information div h2{
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+.information div .picture{
+    width: 25rem;
+}
+
+.more{
+    border: 2px solid blue;
+    color : white;
+    padding: 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.more:hover{
+    background: blue;
+    transition: 0.5s ease;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+}
+
+.footer h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.footer img{
+    width: 100%;
+}
+
+.footer h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.sosmed{
+    margin-top: 4rem;
+    max-width: 20%;
+    margin-left: 40%;
+}
+
+.sosmed img{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#logor7{
+    width: 13rem;
+}
+
+.home{
+    display: none;
+}
+
+@media(max-width: 1024px){
+    .update .update-text h2{
+        font-size: 2.5rem;
+    }
+
+    .container-grid div h2{
+        font-size: 1.5rem;
+    }
+
+    .update2{
+        font-size: 1.5rem;
+    }
+
+    .check a{
+        border: 1px solid white;
+        padding: 0.5rem;
+    }
+
+    .information div h2{
+        font-size: 2rem;
+    }
+
+    .information div .picture{
+        width: 20rem;
+    }
+
+    .more{
+        border: 1px solid blue;
+        padding: 0.5rem;
+    }
+
+    .footer h2{
+        font-size: 1.5rem;
+    }
+
+    .fullBackground {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .cover{
+        height: 60vh;
+    }
+
+    .footer h3{
+        font-size: 1.3rem;
+    }
+    #logor7{
+        width: 11rem;
+    }
+}
+
+
+@media(max-width: 800px){
+    nav ul li a{
+        font-size: 1rem;
+        margin-right: 2rem;
+    }
+
+    .last{
+        margin-right: 0.5rem;
+    }
+
+    #logo{
+        width: 10rem;
+        margin-left: 0.5rem;
+    }
+
+    .update .update-text h2{
+        font-size: 2rem;
+    }
+
+    .container-grid div h2{
+        font-size: 1.25rem;
+    }
+
+    .update2{
+        font-size: 1.25rem;
+    }
+
+    .information div h2{
+        font-size: 1.5rem;
+    }
+
+    .information div .picture{
+        width: 17rem;
+    }
+
+    .fullBackground {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .cover{
+        height: 50vh;
+    }
+
+    .information-page{
+        height: 60vh;  
+    }
+
+    .footer{
+        margin-top: 5rem;
+    }
+
+    .footer h2{
+        font-size: 1.25rem;
+    }
+
+    .footer h3{
+        font-size: 1.1rem;
+    }
+    #logor7{
+        width: 10rem;
+    }
+}
+
+@media(max-width: 600px){
+    nav ul li a{
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
+
+    #logo{
+        margin-top: 1rem;
+        width: 7rem;
+    }
+
+    .update .update-text h2{
+        font-size: 1.5rem;
+    }
+
+    .container-grid div h2{
+        font-size: 1rem;
+    }
+
+    .update2{
+        font-size: 1rem;
+    }
+
+    .information div h2{
+        font-size: 1.25rem;
+    }
+
+    .information{
+        grid-gap: 1rem;
+    }
+
+    .information div .picture{
+        width: 10rem;
+    }
+
+    .footer{
+        margin-top: 3rem;
+    }
+
+    .footer h2{
+        font-size: 1rem;
+    }
+
+    .fullBackground {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .cover{
+        height: 40vh;
+    }
+
+    .information-page{
+        height: 50vh;  
+    }
+
+    .footer h3{
+        font-size: 0.95rem;
+    }
+    #logor7{
+        width: 9rem;
+    }
+}
+
+@media(max-width: 440px){
+    .ubipost-text{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .fullBackground {
+        height: 30vh;
+    }
+
+    .cover{
+        height: 30vh;
+    }
+
+    #logo{
+        width: 5rem;
+    }
+
+    .information div .picture{
+        width: 8rem;
+    }
+
+    .footer{
+       margin-top: 5rem;
+    }
+
+    .footer h3{
+        font-size: 0.7rem;
+    }
+    #logor7{
+        width: 8rem;
+    }
+    
+}
+
+@media(max-width: 355px){
+    nav{
+        text-align: center;
+    }
+    nav ul{
+        float: left;
+        width: 100%;
+    }
+    
+    .home{
+        display: inline-block;
+    }
+
+    .fullBackground {
+        height: 25vh;
+    }
+
+    nav ul li a{ 
+        font-size: 0.5rem;
+        margin-right: 0.2rem;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    .cover{
+        height: 25vh;
+    }
+
+    .update .update-text h2{
+        font-size: 1.25rem;
+    }
+
+    .container-grid div h2{
+        font-size: 0.8rem;
+    }
+
+    .update2{
+        font-size: 0.8rem;
+    }
+
+    .information div .picture{
+        width: 6rem;
+    }
+
+    nav ul li a{
+        font-size: 0.6rem;
+    }
+
+    .information div h2{
+        font-size: 1.25rem;
+    }
+
+    .information div .picture{
+        width: 9rem;
+    }
+
+    .footer h3{
+        font-size: 0.5rem;
+    }
+    #logor7{
+        width: 6rem;
+    }
+}

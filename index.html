@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/index_style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="JS/fullclip.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <title>Home - Rainbow Seven Siege</title>
+</head>
+<body>
+    <div class="header">
+        <div class="ubipost-background">
+            <div class="ubipost-text" id="ubipost-id">
+                <h3>UBIPOST</h3>
+            </div>
+        </div>
+        <div class="navigation">
+            <nav>
+                <a href="#"><img id="logo" src="Image/logo2.jpg"></a>
+                <ul>
+                    <li><a href="index.html" class="home">Home</a></li>
+                    <li>
+                        <a>Operator</a>
+                        <ul>
+                            <li><a href="saviour.html">Saviour</a></li>
+                            <li><a href="protector.html">Protector</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="map.html">Maps</a></li>
+                    <li><a href="quarantine.html">Quarantine</a></li> 
+                    <li><a href="preorder.html" class="last">PREORDER</a></li>              
+                </ul> 
+            </nav>
+        </div>
+    </div>
+    <section class="container">
+        <div class="fullBackground"></div>
+    </section>
+    <div class="cover"></div>
+    <div class="update">
+        <div class="update-text">
+            <h2>UPDATES</h2>
+        </div>
+        <div class="container-grid">
+            <div>
+                <h2>PAST UPDATES</h2>
+                <p class="update2">• Operator Balance Update 1 June 2020</p>
+                <p class="update2">• Hacker and Scammer Banned List 28 May 2020</p>
+                <p class="update2">• Ubipost Patch Note Regarding Player's Note 23 May 2020</p>
+            </div>
+            <div>
+                <h2>UPCOMING UPDATES</h2>
+                <p class="update2">• Update New Event Grand Morbuz Fire 13 June 2020</p>
+                <p class="update2">• Update New Gunner's Skin Morbuz Fire 17 June 2020</p>
+            </div>
+        </div>
+        <div class="check">
+            <a href="#">CHECK IT OUT</a>
+        </div> 
+    </div>
+    <div class="information-page">
+        <div class="information">
+            <div>
+                <h2>CHARACTERS</h2>
+                <img class="top picture" src="Image/sledge.jpg">
+                <img class="picture" src="Image/shield.jpg">
+                <br>
+                <br>
+                <a href="saviour.html" class="more">For More</a>
+            </div>
+            <div>
+                <h2>MAPS</h2>
+                <img class="top picture" src="Image/plane.png">
+                <img class="picture" src="Image/house.png">
+                <br>
+                <br>
+                <a href="map.html" class="more">For More</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>FIND US ON :</h2>
+        <div class="sosmed">
+            <a href="https://www.youtube.com/?hl=id&gl=ID" target="_blank"><img src="Image/youtube.png"></a>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="Image/facebook.png"></a>
+        </div>
+        <h3><a href="#">Legal Information</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></h3>
+        <img id="logor7" src="Image/logo.png">
+    </div>
+    <script>
+        $('.fullBackground').fullClip({
+          images: ['Image/home_slide9.jpg', 'Image/home_slide8.jpg', 'Image/home_slide3.jpg'],
+          transitionTime: 2000,
+          wait: 5000
+        });
+    </script>
+</body>
+</html>

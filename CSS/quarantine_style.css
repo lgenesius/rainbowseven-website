@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: black;
+}
+
+.header{
+    width: 100%;
+    height: 25vh;
+    background: black;
+}
+
+.ubipost-background{
+    width: 100%;
+    height: 7vh;
+    background: #575556;
+}
+
+.ubipost-text{
+    font-size: 2rem;
+    float: left;
+    margin-left: 6rem;
+    color: #ffffff;
+}
+
+.ubipost-text h3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul{
+    background: black;
+    margin-top: 2rem;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.last{
+    margin-right: 1rem;
+}
+
+nav ul li{
+    margin-top: 2rem;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    background: black;
+}
+
+nav ul li a{
+    display: block;
+    margin-right: 3rem;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a{
+    cursor: pointer;
+}
+
+nav ul ul{
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+nav ul li:hover > ul{
+    z-index: 1;
+    display: block;
+}
+
+nav ul ul li{
+    z-index: 1;
+    padding-left: 1rem;
+    padding-bottom: 15px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+#logo{
+    width: 13rem;
+    margin-left: 1rem;
+    float: left;
+}
+
+.container{
+    margin-top: 2rem;
+}
+
+.story{
+    max-width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.story h2{
+    color: white;
+    font-size: 3rem;
+}
+
+.story img{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.story-line{
+    color: white;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.para{
+    margin-top: 1rem;
+}
+
+.feature{
+    margin-top: 10rem;
+    max-width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+
+.feature img{
+    width: 100%;
+}
+
+.map{
+    margin-top: 10rem;
+    max-width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+
+.map img{
+    width: 100%;
+}
+
+.teaser-image{
+    margin-top: 10rem;
+    max-width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.teaser-image h2{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.teaser-image img{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.footer{
+    margin-top: 10rem;
+    width: 100%;
+    text-align: center;
+}
+
+.footer h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.footer h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.footer img{
+    width: 100%;
+}
+
+.footer h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.sosmed{
+    margin-top: 4rem;
+    max-width: 20%;
+    margin-left: 40%;
+}
+
+.sosmed img{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#logor7{
+    width: 13rem;
+}
+
+.home{
+    display: none;
+}
+
+@media(max-width: 1024px){
+    .nav-special{
+        margin-right: 2rem;
+    }
+
+    .story h2{
+        font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 1.7rem;
+    }
+    
+    p {
+        font-size: 1.3rem;
+    }
+    
+    .para{
+        margin-top: 0.9rem;
+    }
+
+    .teaser-image h2{
+        font-size: 2.2rem;
+    }
+
+    .footer h2{
+        font-size: 1.5rem;
+    }
+
+    .footer h3{
+        font-size: 1.3rem;
+    }
+    #logor7{
+        width: 11rem;
+    }
+}
+
+@media(max-width: 800px){
+
+    nav ul li a{
+        font-size: 1rem;
+        margin-right: 2rem;
+    }
+
+    .last{
+        margin-right: 0.5rem;
+    }
+
+    #logo{
+        width: 10rem;
+        margin-left: 0.5rem;
+    }
+
+    .story h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.4rem;
+    }
+    
+    p {
+        font-size: 1.1rem;
+    }
+    
+    .para{
+        margin-top: 0.8rem;
+    }
+
+    .feature{
+        margin-top: 5rem;
+    }
+
+    .teaser-image{
+        margin-top: 5rem;
+    }
+
+    .map{
+        margin-top: 5rem;
+    }
+
+    .teaser-image h2{
+        font-size: 1.8rem;
+    }
+
+    .footer{
+        margin-top: 5rem;
+    }
+
+    .footer h2{
+        font-size: 1.25rem;
+    }
+
+    .footer h3{
+        font-size: 1.1rem;
+    }
+    #logor7{
+        width: 10rem;
+    }
+}
+
+@media(max-width: 600px){
+    nav ul li a{
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
+
+    #logo{
+        width: 7rem;
+        margin-top: 1rem;
+    }
+
+    .ubipost-background{
+        height: 4vh;
+    }
+
+    .header{
+        height: 20vh;
+    }
+
+    .story h2{
+        font-size: 1.8rem;
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    .teaser-image h2{
+        font-size: 1.6rem;
+    }
+    
+    .para{
+        margin-top: 0.75rem;
+    }
+
+    .footer h3{
+        font-size: 0.95rem;
+    }
+    #logor7{
+        width: 9rem;
+    }
+}
+
+@media(max-width: 440px){
+    .ubipost-text{
+        font-size: 1.5rem;
+        margin-top: 0.2rem;
+    }
+
+    .header{
+        height: 16vh;
+    }
+
+    #logo{
+        width: 5rem;
+    }
+
+    .story h2{
+        font-size: 1.6rem;
+    }
+
+    h3{
+        font-size: 1.1rem;
+    }
+    
+    p {
+        font-size: 0.9rem;
+    }
+
+    .teaser-image h2{
+        font-size: 1.4rem;
+    }
+    
+    .para{
+        margin-top: 0.70rem;
+    }
+
+    .feature{
+        margin-top: 3.5rem;
+    }
+
+    .teaser-image{
+        margin-top: 3.5rem;
+    }
+
+    .map{
+        margin-top: 3.5rem;
+    }
+    .footer{
+        margin-top: 3.5rem;
+    }
+
+    .footer h3{
+        font-size: 0.7rem;
+    }
+    #logor7{
+        width: 8rem;
+    }
+}
+
+@media(max-width: 355px){
+    nav{
+        text-align: center;
+    }
+    nav ul{
+        float: left;
+        width: 100%;
+    }
+    
+    .home{
+        display: inline-block;
+    }
+    #logo{
+        display: none;
+    }
+
+    .nav-special{
+        margin-right: 0.1rem;
+    }
+    nav ul li a{
+        font-size: 0.6rem;
+    }
+
+    .footer h3{
+        font-size: 0.5rem;
+    }
+    #logor7{
+        width: 6rem;
+    }
+}

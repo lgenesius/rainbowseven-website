@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: black;
+}
+
+.header{
+    width: 100%;
+    height: 25vh;
+    background: black;
+}
+
+.ubipost-background{
+    width: 100%;
+    height: 7vh;
+    background: #575556;
+}
+
+.ubipost-text{
+    font-size: 2rem;
+    float: left;
+    margin-left: 6rem;
+    color: #ffffff;
+}
+
+.ubipost-text h3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul{
+    background: black;
+    margin-top: 2rem;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.last{
+    margin-right: 1rem;
+}
+
+nav ul li{
+    margin-top: 2rem;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    background: black;
+}
+
+nav ul li a{
+    display: block;
+    margin-right: 3rem;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a{
+    cursor: pointer;
+}
+
+nav ul ul{
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+nav ul li:hover > ul{
+    z-index: 1;
+    display: block;
+}
+
+nav ul ul li{
+    z-index: 1;
+    padding-left: 1rem;
+    padding-bottom: 15px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+#logo{
+    width: 13rem;
+    margin-left: 1rem;
+    float: left;
+}
+
+.tabs{
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+}
+
+.tabs h1{
+    margin-top: 1rem;
+    font-size: 5rem;
+}
+
+.tabs h2{
+    margin-top: 4rem;
+    font-size: 4rem;
+}
+
+.tabs .container{
+    margin-top: 1rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+#tab-1-content, #tab-2-content, #tab-3-content, #tab-4-content{
+	display: none;
+}
+
+.show {
+	display: block !important;
+}
+
+.tabs p{
+	font-size: 1rem;
+    padding-top: 0.5rem;
+    color: white;
+}
+
+.container img{
+    width: 100%;
+}
+
+.tab-border{
+    opacity: 0.5;
+}
+
+.tabs .container > div:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.tab-content{
+    color: white;
+    margin-top: 4rem;
+}
+
+.tab-content h2{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+#tab-1-content .tab-1-content-inner{
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.tab-content-item img{
+    max-width: 40%;
+    margin-left: 30%;
+    width: 100%;
+}
+
+.title-operator{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.specialty{
+    text-align: justify;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+
+.specialty h3{
+    font-size: 2.5rem;
+}
+
+.specialty p {
+    font-size: 1.5rem;
+}
+
+.bio{
+    text-align: justify;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+
+.bio h3{
+    font-size: 2.5rem;
+}
+
+.bio p {
+    font-size: 1.5rem;
+}
+
+#tab-2-content .tab-2-content-inner{
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+#tab-3-content .tab-3-content-inner{
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+#tab-4-content .tab-4-content-inner{
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.footer h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.footer img{
+    width: 100%;
+}
+
+.footer h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.sosmed{
+    margin-top: 4rem;
+    max-width: 20%;
+    margin-left: 40%;
+}
+
+.sosmed img{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#logor7{
+    width: 13rem;
+}
+
+.home{
+    display: none;
+}
+
+@media(max-width: 1024px){
+    .tabs h1{
+        font-size: 4rem;
+    }
+    
+    .tabs h2{
+        font-size: 3rem;
+    }
+
+    .tab-content h2{
+        font-size: 3rem;
+    }
+
+    .title-operator{
+        font-size: 2rem;
+    }
+
+    .specialty h3{
+        font-size: 2rem;
+    }
+    
+    .specialty p {
+        font-size: 1.2rem;
+    }
+    .bio h3{
+        font-size: 2rem;
+    }
+    
+    .bio p {
+        font-size: 1.2rem;
+    }
+
+    .footer h3{
+        font-size: 1.3rem;
+    }
+
+    #logor7{
+        width: 11rem;
+    }
+}
+
+@media(max-width: 800px){
+    nav ul li a{
+        font-size: 1rem;
+        margin-right: 2rem;
+    }
+
+    .last{
+        margin-right: 0.5rem;
+    }
+
+    #logo{
+        width: 10rem;
+        margin-left: 0.5rem;
+    }
+
+    .tabs h1{
+        font-size: 3.5rem;
+    }
+    
+    .tabs h2{
+        font-size: 2.5rem;
+    }
+
+    .tab-content h2{
+        font-size: 2.5rem;
+    }
+
+    .title-operator{
+        font-size: 1.5rem;
+    }
+
+    .specialty h3{
+        font-size: 1.5rem;
+    }
+    
+    .specialty p {
+        font-size: 1rem;
+    }
+    .bio h3{
+        font-size: 1.5rem;
+    }
+    
+    .bio p {
+        font-size: 1rem;
+    }
+
+    .footer h2{
+        font-size: 1.25rem;
+    }
+
+    .footer h3{
+        font-size: 1.1rem;
+    }
+    #logor7{
+        width: 10rem;
+    }
+}
+
+@media(max-width: 600px){
+    nav ul li a{
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
+
+    #logo{
+        width: 7rem;
+        margin-top: 1rem;
+    }
+
+    .tabs p{
+        font-size: 0.8rem;
+    }
+
+    .tabs h1{
+        font-size: 2.5rem;
+    }
+    
+    .tabs h2{
+        font-size: 1.5rem;
+    }
+
+    .tab-content h2{
+        font-size: 1.5rem;
+    }
+
+    .title-operator{
+        font-size: 1rem;
+    }
+
+    .specialty h3{
+        font-size: 1rem;
+    }
+    
+    .specialty p {
+        font-size: 0.9rem;
+    }
+    .bio h3{
+        font-size: 0.9rem;
+    }
+    
+    .bio p {
+        font-size: 0.9rem;
+    }
+
+    .sosmed{
+        margin-top: 2rem;
+    }
+
+    .footer h2{
+        font-size: 1rem;
+    }
+
+    .footer h3{
+        font-size: 0.95rem;
+    }
+    #logor7{
+        width: 9rem;
+    }
+}
+
+@media(max-width: 440px){
+    .ubipost-text{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .fullBackground {
+        height: 30vh;
+    }
+
+    .cover{
+        height: 30vh;
+    }
+
+    #logo{
+        width: 5rem;
+    }
+
+    .footer{
+        margin-top: 5rem;
+     }
+ 
+     .footer h3{
+         font-size: 0.7rem;
+     }
+     #logor7{
+         width: 8rem;
+     }
+}
+
+@media(max-width:355px){
+    nav{
+        text-align: center;
+    }
+    nav ul{
+        float: left;
+        width: 100%;
+    }
+    
+    .home{
+        display: inline-block;
+    }
+
+    nav ul li a{
+        font-size: 0.5rem;
+        margin-right: 0.2rem;
+        
+    }
+
+    #logo{
+        display: none;
+    }
+
+.footer h3{
+        font-size: 0.5rem;
+    }
+    #logor7{
+        width: 6rem;
+    }
+
+    .tabs p{
+        font-size: 0.7rem;
+    }
+
+    .tabs h1{
+        font-size: 1.3rem;
+    }
+    
+    .tabs h2{
+        font-size: 1rem;
+    }
+
+    .tab-content h2{
+        font-size: 1rem;
+    }
+
+    .title-operator{
+        font-size: 0.9rem;
+    }
+
+    .specialty h3{
+        font-size: 0.9rem;
+    }
+
+    .bio h3{
+        font-size: 0.9rem;
+    }
+    
+}
