@@ -107,10 +107,11 @@ h4:hover {
 .title {
     text-align: center;
     color: white;
+    max-width: 80%;
+    margin-left: 10%;
 }
 
 .title h1 {
-    margin: 0 40px 40px 40px;
     font-size: 90px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -141,7 +142,7 @@ h4:hover {
 }
 
 .map img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 h2 {
@@ -404,6 +405,15 @@ h2 {
     .ubipost-text {
         font-size: 1.5rem;
         margin-top: 0.5rem;
+    }
+
+    .title h1 {
+        font-size: 40px;
+    }
+
+    .title p {
+        font-size: 15px;
+        line-height: 20px;
     }
 
     .map img:hover {
