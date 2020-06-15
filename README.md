@@ -1,6 +1,6 @@
 # Rainbow Seven Siege - School Project
 <img src="Image/logo.PNG">
-This is my school project in Human Computer Interaction Laboratory subjects.<br>This is a group project that consists of 4 people.<br>The role is 1 designer, 1 designer and coder, 2 coder.
+This is my school project in Human Computer Interaction Laboratory subjects.<br>This is a group project that consists of 4 people.<br>The role of our group is 1 designer, 1 designer and coder, 2 coder.
 
 ## Links to This School Project
 https://lgenesius.github.io/rainbowseven.github.io/
