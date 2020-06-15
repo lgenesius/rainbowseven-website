@@ -21,6 +21,9 @@ https://lgenesius.github.io/rainbowseven.github.io/
 </ul>
 </ol>
 
+## The Blueprints
+<a href="Blueprint_home.jpg">Click here to see the blueprint of home<a>
+
 ## Descriptions
 This project made on June 12, 2020 during semester 4 in university.<br><br>
 My role in this project is coder. I coded the Home Page, Operator Page (Consists of Saviour page and Protector page), and Quarantine Page.<br><br>
