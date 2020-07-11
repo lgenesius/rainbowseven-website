@@ -3,7 +3,7 @@
 This is my school project in Human Computer Interaction Laboratory subject.<br>This is a group project that consists of 4 people.<br>The role of our group is 1 designer, 1 designer and coder, 2 coder.
 
 ## Links to This School Project
-https://lgenesius.github.io/rainbowseven.github.io/
+https://lgenesius.github.io/Rainbowseven-Website/
 
 ## The Requirements
 <ol>
